@@ -39,11 +39,11 @@
             <!-- input checkbox -->
             <section>
                 <label for="en">English</label>
-                <input type="checkbox" name="en" id="language" value="english">
+                <input type="checkbox" name="language" id="english"nglish" value="english">
             </section>
             <section>
                 <label for="pt">Portuguese</label>
-                <input type="checkbox" name="pt" id="language" value="portuguese">
+                <input type="checkbox" name="language" id="portuguese" value="portuguese">
             </section>
             <h3>Gender</h3>
             <!--  input radio -->
@@ -66,6 +66,18 @@
                 <label for="file">Select file</label>
                 <input type="file" name="file" id="file">
             </div>
+            <h3>Country</h3>
+            <div>
+                <label for="country">Select your Country</label>
+                <select name="country" id="country">
+                    <option value="" selected disabled>Insert</option>
+                    <option value="usa">United States</option>
+                    <option value="br">Brazil</option>
+                    <option value="ger">Germany</option>
+                    <option value="can">Canada</option>
+                </select>
+            </div>
+            <br/>
             <button>Submit</button>
         </fieldset>
     </form>

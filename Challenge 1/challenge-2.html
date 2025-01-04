@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinary Form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Veterinary Form</legend>
+            <h3>Information of the animal Ower</h3>
+            <section>
+                <div class="name">
+                    <label for="name">Name:</label>
+                    <input 
+                    type="text"  
+                    id="name"
+                    placeholder="Victor"
+                    required name="name">
+                </div>
+                <div class="surname">
+                    <label for="surname">Surname:</label>
+                    <input 
+                    type="text"
+                    id="surname"
+                    placeholder="Souza"
+                    required name="surname">
+                </div>
+                <div>
+                    <label for="phone">Phone:</label>
+                    <input 
+                    type="text" 
+                    name="phone" 
+                    id="number"
+                    placeholder="(19)99098-3924">
+                </div>
+            </section>
+            <section>
+                <h3>Gender</h3>
+                <div>
+                    <input type="radio" name="gender" id="famale" value="famale">
+                    <label for="famale">Famale</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                </div>
+            </section>
+            <section>
+                <h3>Detalied Disease Description</h3>
+                <div class="form-contact">
+                    <label for="message"></label>
+                    <textarea cols="50" rows="5" placeholder="Write the description here ..." name="message" id="message" ></textarea>
+                </div>
+            </section>
+            <button>Submit</button>
+        </fieldset>
+    </form>
+</body>
+<a href="./index.html">Go Home</a>
+</html>
