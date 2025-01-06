@@ -1,0 +1,76 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+/* border color of page */
+body{
+    border: 0.4em solid rgb(63, 63, 63);
+}
+
+/* centralizing text */
+#price,#car,header{
+    text-align: center;
+}
+
+/* uppercase in title car */
+#car{
+    text-transform: uppercase;
+}
+
+/* customizing the price */
+#price{
+    font-size: large;
+    font-style: bold;
+    color: #8200be;
+    font-weight: 900;
+    
+}
+
+/* ajust the image */
+img{
+    width: 100%;
+    max-width: 500px;
+    justify-content: center;
+}
+
+/* centralizing image inside div */
+#image,div{
+    text-align: center;
+}
+
+/* using hover in hyperlink */
+a:hover{
+    cursor: pointer;
+    color: red;
+    font-size: large;
+}
+
+/* defined color in lists */
+li:nth-child(1),
+li:nth-child(3){
+    color: #8200be;
+}
+
+/* button properties */
+button{
+    width: 100px;
+    height: 45px;
+    color: white;
+    background-color: black;
+    border-radius: 10px ;
+    border: 0;
+    font-style: bold;
+    font-weight: 700;
+}
+
+/* hover in button */
+button:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+   color: rgb(105, 105, 105);
+}
